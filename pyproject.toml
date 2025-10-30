@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projeto-pratico"
+version = "0.1.0"
+description = "Desenvolvendo Aplicações Web com Streamlit"
+authors = ["Chico_2025"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.50.0"
+pandas = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
